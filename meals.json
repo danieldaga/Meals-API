@@ -5996,8 +5996,6 @@
             "dateModified": null
         },
         {
-            "meals": [
-                {
                     "idMeal": "52764",
                     "strMeal": "Garides Saganaki",
                     "strDrinkAlternate": null,
@@ -6328,8 +6326,6 @@
                     "dateModified": null
                 },
                 {
-                    "meals": [
-                        {
                             "idMeal": "52773",
                             "strMeal": "Honey Teriyaki Salmon",
                             "strDrinkAlternate": null,
@@ -15075,8 +15071,6 @@
                             "dateModified": null
                         },
                         {
-                            "meals": [
-                                {
                                     "idMeal": "52775",
                                     "strMeal": "Vegan Lasagna",
                                     "strDrinkAlternate": null,
@@ -15462,8 +15456,6 @@
                                     "dateModified": null
                                 },
                                 {
-                                    "meals": [
-                                        {
                                             "idMeal": "52917",
                                             "strMeal": "White chocolate creme brulee",
                                             "strDrinkAlternate": null,
@@ -15629,8 +15621,6 @@
                                             "dateModified": null
                                         },
                                         {
-                                            "meals": [
-                                                {
                                                     "idMeal": "52871",
                                                     "strMeal": "Yaki Udon",
                                                     "strDrinkAlternate": null,
