@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 const cors = require('cors');
 const PORT = 3000;
-const mealsJSON = require("./meals.json")
+const mealsData = require("./meals.json")
 
     app.use(cors());
 
@@ -12,5 +12,5 @@ const mealsJSON = require("./meals.json")
     })
 
     app.get("/", (req, res) =>{
-        res.send({response: true, mealsJSON})
+        res.send({response: true, mealsData})
     })
