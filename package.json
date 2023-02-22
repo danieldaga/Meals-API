@@ -1,0 +1,25 @@
+{
+  "name": "meals-api",
+  "version": "1.0.0",
+  "description": "api of recipes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danieldaga/Meals-API.git"
+  },
+  "author": "Daniel Garcia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danieldaga/Meals-API/issues"
+  },
+  "homepage": "https://github.com/danieldaga/Meals-API#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
