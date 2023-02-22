@@ -12,5 +12,5 @@ const mealsJSON = require("./meals.json")
     })
 
     app.get("/", (req, res) =>{
-        res.send({response: true, message: {mealsJSON}})
+        res.send({response: true, mealsJSON})
     })
