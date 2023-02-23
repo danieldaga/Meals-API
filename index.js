@@ -15,8 +15,8 @@ const mealsData = require("./meals.json")
         res.send({response: true, mealsData})
     })
 
-    app.get("/:name", (req, res) => {
-        const {name} = req.params
-        const result = mealsData.filter(meals => meals.meals.strMeal === name)
+    app.get("/:id", (req, res) => {
+        const {id} = req.params
+        const result = mealsData.filter(meals => meals.meals.idMeal === id)
         res.send({response: true, mealsData: result})
     }) // review
