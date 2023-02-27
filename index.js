@@ -8,7 +8,7 @@ const mealsData = require("./meals.json")
     app.use(cors());
 
     app.listen(PORT, () =>{
-        console.log(`run port ${PORT}`);
+        console.log(`run in port ${PORT}`);
     })
 
     app.get("/", (req, res) =>{
@@ -18,5 +18,5 @@ const mealsData = require("./meals.json")
     app.get("/:id", (req, res) => {
         const {id} = req.params
         const result = mealsData.filter(meals => meals.meals.idMeal === id)
-        res.send({response: true, mealsData: result})
+        res.send({response: true, mealsData1: result})
     }) // review
